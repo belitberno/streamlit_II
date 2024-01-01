@@ -58,8 +58,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("https://github.com/belitberno/streamlit_II/blob/main/Bank-Branding.jpg?raw=true")
-    st.sidebar.image(image)
+    st.sidebar.image("https://github.com/belitberno/streamlit_II/blob/main/Bank-Branding.jpg?raw=true")
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
